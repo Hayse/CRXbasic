@@ -1,2 +1,6 @@
 # CRXbasic
-Study notes: chrome extension (applicable to 360 secured browser, other untested)
+Chrome是Google公司基于WebKit开发的一款浏览器，但从某种角度上来说它已经超越了浏览器成为了一个平台甚至是一个操作系统。Chrome继承了WebKit内核对HTML的高速渲染，同时Google自行开发的V8引擎使得JavaScript在Chrome中的执行效率大幅提升，这使得更加高级复杂的JavaScript程序在Chrome中运行成为可能。
+
+1 Chrome 28之后使用的Blink渲染引擎是WebKit中WebCore组件的一个分支。
+
+Chrome浏览器除了页面渲染速度快，JavaScript执行速度快以外，另一大特点就是支持开发者为其编写各种各样的扩展来扩充其功能，用HTML5编写桌面程序，这使得Chrome变得更加强大。编写这样的程序就是所学笔记的目标。
