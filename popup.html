@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>popup页</title>
+	<meta charset="utf-8" />
+	<style>
+	html,body {
+		font-family: 'Microsoft Yahei';
+		width: 500px;background:#ddd;
+		min-height: 100px;
+	}
+    div {margin-top:9px;margin-bottom:9px;}
+	</style>
+</head>
+<body>
+<div style="padding:9px;margin:0;">
+	<h1>这是一个popup页面【Browser action】</h1>
+	<div id="ip_div">正在进行IP查询。。。</div>
+	<div id="city_div">正在查询city。。。</div>
+	<h2>选择文件（.csv）</h2>
+    <p>默认为EXCEL另存为“逗号分隔CSV文件”，注意数据里没有强制换行、双引号、逗号（可以用中文的双引号、逗号）</p>
+	<div><input type="file" name="upfile" id="upfile"></div>
+	<div>
+		<input type="button" id="btn" value="提交">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" id="rst" value="清空数据">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" id="test" value="TEST">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+	    <span id="csv_p"></span>
+	</div>
+</div>
+	<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
